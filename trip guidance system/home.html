@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripGuider</title>
+<script src="bootstrap.bundle.js"></script>
+<link rel="stylesheet" href="bootstrap.css"/>
+
+</head>
+
+<body>
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">TripGuider</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Features</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="todolist.html">To do List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+          <a href="rating.html" class="nav-link">Rating & Review</a> 
+           </li>  
+      </div>
+    </div>
+  </div>
+</nav>
+</div>
+<br>
+<br>
+<br>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="images/season.webp" class="card-img-top" alt="..." height="300 px" width="50px">
+      <div class="card-body">
+        <h5 class="card-title">Season</h5>
+        <p class="card-text">Choose your destination based on the  seasons</p>
+         <div class="dropdown-center">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Select Season
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="summer.html">Summer</a></li>
+    <li><a class="dropdown-item" href="winter.html">Winter</a></li>
+    <li><a class="dropdown-item" href="rainy.html">Rainy</a></li>
+  </ul>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/family.webp" class="card-img-top" alt="..."height="300px">
+      <div class="card-body">
+        <h5 class="card-title">Age group</h5>
+        <p class="card-text"> Choose your destination based on the age</p>
+            <div class="dropdown-center">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Select Age group
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="young.html">Young</a></li>
+    <li><a class="dropdown-item" href="adult.html">Adult</a></li>
+    <li><a class="dropdown-item" href="old.html">Old</a></li>
+  </ul>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/budget.jpg" class="card-img-top" alt="..."height="300px">
+      <div class="card-body">
+        <h5 class="card-title">Budget</h5>
+        <p class="card-text">Choose your destination based on the budget</p>
+        <div class="dropdown-center">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Select Budget
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="High.html">High</a></li>
+    <li><a class="dropdown-item" href="Moderate.html">Moderate</a></li>
+    <li><a class="dropdown-item" href="Low.html">Low</a></li>
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/rules.webp" class="card-img-top" alt="..."height="320px">
+      <div class="card-body">
+        <h5 class="card-title">Rules & Regulation</h5>
+        <p class="card-text">Rules & safety guidance for your selected destination</p>
+        <button onclick="window.location.href='rules.html'">Explore Now!</button>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
